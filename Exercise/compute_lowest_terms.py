@@ -28,7 +28,7 @@ def lowest_terms(x):
 # ###########################################################################
 # A function that generate the factors of any number
 # It accept a number
-# Returns a list of factors or empty list if there are no factors
+# Returns a list of factors or empty list if there are no factors 
 # ###########################################################################
 
 def factors(x):

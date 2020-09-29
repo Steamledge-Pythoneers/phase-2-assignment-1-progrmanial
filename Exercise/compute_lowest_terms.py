@@ -38,12 +38,3 @@ def factors(x):
 	num = abs(int(x))
 	return [i for i in range(1, num+1) if not num % i]
 
-
-print(lowest_terms("20/10"))
-print(lowest_terms("16/28"))
-print(lowest_terms("-50/25") )
-print(lowest_terms("20/-60") )
-print(lowest_terms("-300/165") )
-print(lowest_terms("-12/-26"))
-print(lowest_terms("90/0") )
-print(lowest_terms("0/12") )

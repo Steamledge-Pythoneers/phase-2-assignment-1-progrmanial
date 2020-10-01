@@ -3,12 +3,10 @@
 def lowest_terms(x):
 	if x == "0/0" or x.split('/')[1] == "0": return "Undefined"
 	
-	numbers = x.split("/")
-	
 	# Check for zero denominator and zero numerator
 
+	numbers = x.split("/")
 	if numbers[0] == "0": return "0"
-	# if numbers[1] == "0": return "Undefined"
 
 	# converts negative denominator to positive and transfer it to numerator
 	# eliminate negative sign if both the numerator and denominator are negative

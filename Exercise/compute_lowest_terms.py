@@ -1,6 +1,8 @@
 ## TODO: complete the function "lowest_terms" below
 
 def lowest_terms(x):
+	if x == "0/0": return "Undefined"
+	
 	numbers = x.split("/")
 	
 	# Check for zero denominator and zero numerator
